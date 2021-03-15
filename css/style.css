@@ -1,3 +1,9 @@
+:root {
+    --black: #001514;
+    --gray: #2F3F3E;
+    --ligthBlue: #C0FCF9;
+    --pink: #FF6DAF;
+}
 * {
     padding: 0;
     margin: 0;
@@ -12,7 +18,8 @@ header {
     align-items: center;
     width: 100%;
     height: auto;
-    background-image: linear-gradient(to bottom, #ff75a0, #f8956e, #d1b96d, #a7d29a, #95e1d3);
+    color: var(--ligthBlue);
+    background-image: linear-gradient(to right top, #001514, #003749, #22568b, #9366b5, #ff6daf);
     text-align: center;
 }
 header .logo {
@@ -28,14 +35,15 @@ header a {
     display: flex;
     place-items: center center;
     padding: 5px 10px;
-    color: #fff;
+    color: var(--pink);
     text-decoration: none;
-    background-color: #ff75a0;
+    background-color: var(--black);
     border-radius: 5px;
 }
 main {
     padding: 30px 0;
-    background-color: #d1b96d;
+    color: var(--ligthBlue);
+    background-color: var(--gray);
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -44,4 +52,28 @@ main {
 .precios svg {
     min-width: 60px;
     max-width: 70px;
+}
+.footer {
+    margin: 0;
+    width: 100%;
+    min-height: 100px;
+    max-height: 200px;
+    display: flex;
+    place-content: center space-around;
+    text-decoration: none;
+    align-items: center;
+    background-image: linear-gradient(to left bottom, #001514, #003749, #22568b, #9366b5, #ff6daf);
+}
+.footer-left ul {
+    list-style: none;
+    text-align: center;
+}
+.footer-left ul li {
+    margin: 5px;
+}
+.footer-left a {
+    text-decoration: none;
+}
+.footer-left a:hover {
+    text-decoration: underline;
 }
