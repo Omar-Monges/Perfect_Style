@@ -62,11 +62,13 @@ main {
     place-content: center space-around;
     text-decoration: none;
     align-items: center;
-    background-image: linear-gradient(to left bottom, #001514, #003749, #22568b, #9366b5, #ff6daf);
+    /* background-image: linear-gradient(to left bottom, #001514, #003749, #22568b, #9366b5, #ff6daf); */
+    background-color: var(--ligthBlue);
 }
 .footer-left ul {
     list-style: none;
     text-align: center;
+    color: var(--black);
 }
 .footer-left ul li {
     margin: 5px;
