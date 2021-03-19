@@ -1,49 +1,70 @@
 :root {
-    --black: #001514;
-    --gray: #2F3F3E;
-    --ligthBlue: #C0FCF9;
-    --pink: #FF6DAF;
+    --cream: #EEEBDD;
+    --red: #810000;
+    --hardred: #630000;
+    --black: #1B1717;
+    --off-white: #FAF8F7;
 }
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
+body {
+    /* font-size: 62.5%; */
+    background-color: var(--off-white);
+}
 header {
     position: relative;
-    padding: 20px 0;
+    padding: 20px 0 30px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     width: 100%;
+    min-width: 320px;
     height: auto;
-    color: var(--ligthBlue);
-    background-image: linear-gradient(to right top, #001514, #003749, #22568b, #9366b5, #ff6daf);
+    color: var(--cream);
+    background-color: var(--hardred);
+    /* background-image: linear-gradient(to right top, #001514, #003749, #22568b, #9366b5, #ff6daf); */
     text-align: center;
+    border-radius: 0 0 30px 30px;
 }
-header .logo {
+/* header .icon {
+    background-image: url('https://gph.is/st/EVq3P5m');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+} */
+header h1 img {
+    display: block;
     width: 50px;
+    height: 50px;
+    justify-self: center;
+    margin: 5px auto
 }
-header svg {
-    width: 25px;
-    margin-left: 5px;
-}
-header a {
+.buttom--cita {
     position: absolute;
-    top: calc(100% - 15px);
     display: flex;
-    place-items: center center;
+    min-width: 235px;
+    max-width: 340px;
+    justify-content: center;
+    top: calc(100% - 15px);
     padding: 5px 10px;
-    color: var(--pink);
+    font-size: 18px;
+    font-weight: 400;
+    color: var(--black);
     text-decoration: none;
-    background-color: var(--black);
+    background-color: var(--cream);
     border-radius: 5px;
+}
+.buttom--cita img {
+    margin: 5px 0;
+    margin-left: 15px;
 }
 main {
     padding: 30px 0;
-    color: var(--ligthBlue);
-    background-color: var(--gray);
+    color: var(--black);
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -61,9 +82,11 @@ main {
     display: flex;
     place-content: center space-around;
     text-decoration: none;
+    color: var(--cream);
     align-items: center;
     /* background-image: linear-gradient(to left bottom, #001514, #003749, #22568b, #9366b5, #ff6daf); */
-    background-color: var(--ligthBlue);
+    background-color: var(--hardred);
+    border-radius: 30px 30px 0 0;
 }
 .footer-left ul {
     list-style: none;
