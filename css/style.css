@@ -71,8 +71,56 @@ main {
     max-width: 70px;
 }
 .situations p {
-    margin: 10px;
+    margin: 10px 5px 26px;
     font-weight: lighter;
+}
+.precios {
+    position: relative;
+    min-width: 310px;
+    /* max-width: 600px; */
+    margin: 10px 5px;
+    color: var(--off-white);
+    border-radius: 15px;
+    background-color: var(--black);
+}
+.precios__title {
+    position: relative;
+    top: -16px;
+    display: inline-flex;
+    min-width: 235px;
+    max-width: 340px;
+    height: 32px;
+    padding: 5px 0;
+    justify-content: center;
+    align-items: center;
+    color: var(--black);
+    background-color: var(--cream);
+    border-radius: 5px;
+}
+.precios__table {
+    margin: -5px 10px 10px 10px;
+    display: grid;
+    grid-template: repeat(2, 1fr) / repeat(2, 1fr);
+    /* background-color: #fff5; */
+    /* border-radius: 10px; */
+    gap: 2px;
+}
+.precios__table p {
+    padding: 2px;
+    font-weight: normal;
+    background-color: #fff5;
+}
+.top-left {
+    border-radius: 5px 0 0 0;
+}
+.top-rigth {
+    border-radius: 0 5px 0 0;
+}
+.bottom-left {
+    border-radius: 0 0 0 5px;
+}
+.bottom-rigth {
+    border-radius: 0 0 5px 0;
 }
 .info p {
     margin: 10px;
