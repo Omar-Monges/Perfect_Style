@@ -66,9 +66,17 @@ main {
     text-align: center;
     justify-items: center;
 }
-.precios svg {
+.situations svg {
     min-width: 60px;
     max-width: 70px;
+}
+.situations p {
+    margin: 10px;
+    font-weight: lighter;
+}
+.info p {
+    margin: 10px;
+    font-weight: lighter;
 }
 .footer {
     position: relative;
