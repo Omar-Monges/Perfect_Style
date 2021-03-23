@@ -1,0 +1,9 @@
+.situations {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+}
+.situations__img {
+    min-width: 384px;
+    height: auto;
+}
