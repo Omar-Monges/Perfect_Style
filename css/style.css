@@ -66,13 +66,15 @@ main {
     text-align: center;
     justify-items: center;
 }
-.situations svg {
-    min-width: 60px;
-    max-width: 70px;
-}
 .situations p {
     margin: 10px 5px 26px;
     font-weight: lighter;
+}
+.situations__img {
+    width: 100%;
+    min-width: 320px;
+    height: auto;
+    margin: 10px 0;
 }
 .precios {
     position: relative;
