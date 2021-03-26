@@ -74,7 +74,7 @@ main {
     width: 100%;
     min-width: 320px;
     height: auto;
-    margin: 10px 0;
+    margin: 0 0 10px 0;
 }
 .precios {
     position: relative;
