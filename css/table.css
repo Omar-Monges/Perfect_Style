@@ -1,7 +1,33 @@
+html {
+    font-size: 100%;
+}
+.header h1 {
+    display: flex;
+    margin: 25px 0;
+    place-items: center;
+    letter-spacing: 7px;
+}
+.header h1 img {
+    display: inline-block;
+    margin: 0 15px;
+}
+.buttom--cita-top, .buttom--cita-low {
+    width: 100%;
+    min-width: 235px;
+    max-width: 300px;
+    height: 45px;
+}
+.buttom--cita-top {
+    top: calc(100% - 22.5px);
+}
+.buttom--cita-low {
+    bottom: calc(100% - 22.5px);
+}
 .situations {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: auto;
+    margin: 15px 0;
 }
 .situations__info {
     display: flex;
@@ -12,6 +38,10 @@
 .situations__img {
     min-width: 264px;
     min-height: 316px;
-    max-height: 100vh;
+    max-height: 95vh;
     border-radius: 5px;
+}
+.precios__title {
+    height: 45px;
+    top: -22.5px;
 }
