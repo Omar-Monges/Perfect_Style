@@ -75,6 +75,7 @@ main {
     font-weight: lighter;
 }
 .situations__img {
+    display: none;
     width: 100%;
     min-width: 320px;
     height: 720px;
@@ -85,9 +86,16 @@ main {
     min-width: 310px;
     /* max-width: 600px; */
     margin: 10px 5px;
+}
+.precios__info {    
     color: var(--off-white);
     border-radius: 15px;
     background-color: var(--black);
+}
+.precios img {
+    display: none;
+    width: 100%;
+    height: auto;
 }
 .precios__title {
     position: relative;
