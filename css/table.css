@@ -1,65 +1,68 @@
 html {
-    font-size: 100%;
+  font-size: 100%;
 }
 .header h1 {
-    display: flex;
-    margin: 25px 0;
-    place-items: center;
-    letter-spacing: 7px;
+  display: flex;
+  margin: 25px 0;
+  place-items: center;
+  letter-spacing: 7px;
 }
 .header h1 img {
-    display: inline-block;
-    margin: 0 15px;
+  display: inline-block;
+  margin: 0 15px;
 }
-.buttom--cita-top, .buttom--cita-low {
-    width: 100%;
-    min-width: 235px;
-    max-width: 300px;
-    height: 45px;
+.buttom--cita-top,
+.buttom--cita-low {
+  width: 100%;
+  min-width: 235px;
+  max-width: 300px;
+  height: 45px;
 }
 .buttom--cita-top {
-    top: calc(100% - 22.5px);
+  top: calc(100% - 22.5px);
 }
 .buttom--cita-low {
-    bottom: calc(100% - 22.5px);
+  bottom: calc(100% - 22.5px);
 }
 .situations {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: auto;
-    margin: 15px 0;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto;
+  margin: 15px 0;
 }
 .situations__info {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 .situations__img {
-    display: inline-block;
-    min-width: 264px;
-    min-height: 316px;
-    max-height: 95vh;
-    /* border-radius: 5px; */
+  display: inline-block;
+  min-width: 264px;
+  min-height: 316px;
+  max-height: 95vh;
+  object-fit: cover;
+  /* border-radius: 5px; */
 }
 .precios {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: auto;
-    margin: 15px 0;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto;
+  margin: 15px 0;
 }
 .precios img {
-    display: inline-block;
-    min-width: 160px;
-    min-height: auto;
-    max-height: 620px;
-    /* border-radius: 5px; */
+  display: inline-block;
+  min-width: 160px;
+  min-height: auto;
+  max-height: 620px;
+  object-fit: cover;
+  /* border-radius: 5px; */
 }
 .precios__info {
-    border-radius: 0;
-    height: 100%;
+  border-radius: 0;
+  height: 100%;
 }
 .precios__title {
-    height: 45px;
-    top: -22.5px;
+  height: 45px;
+  top: -22.5px;
 }
