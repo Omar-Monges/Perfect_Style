@@ -61,6 +61,7 @@ html {
 .precios__info {
   border-radius: 0;
   height: 100%;
+  padding-bottom:3px;
 }
 .precios__title {
   height: 45px;
